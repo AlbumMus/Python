@@ -1,4 +1,3 @@
-#  Задание 1
 sabina = "pretty woomen"
 if sabina == "pretty woomen":
     print("она такая хорошенькая!")
@@ -7,9 +6,9 @@ else:
 
 
 sabina = "animal"
-if sabina == "pretty woomen":
+if sabina != "pretty woomen":
     print("она такая хорошенькая!")
-elif sabina != "animal":
+elif sabina == "animal":
     print("Не мышонок, не лягушка, а неведома зверушка!")
 else:
     print("ну просто чудовище какое-то!")
@@ -30,19 +29,6 @@ n2 = n + n
 n3 = n + n + n
 sum = int(n1) + int(n2) + int(n3)
 print(f"{n1} + {n2} + {n3} = {sum}")
-
-
-# Задание 4
-number_x = input("Введите любое целое число: ")
-number_x = str(number_x)
-n = 0
-max = 0
-while n < len(number_x):
-    if (int(number_x[n]) > max):
-        max = int(number_x[n])
-    print("ch: ", number_x[n], " max: ", max)
-    n += 1
-print("максимальное число = ", max)
 
 
 # Задание 5
